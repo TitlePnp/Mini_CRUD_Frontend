@@ -1,0 +1,198 @@
+@import url('https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css');
+
+.alertText {
+    font-family: 'Kodchasan', sans-serif;
+    margin: 0px;
+}
+
+.container table {
+    width: 100%;
+    border-radius: 5px;
+    /* border: 0.1px solid #6d8491; */
+    border-collapse: separate;
+    border-spacing: 0;
+    margin-top: 20px;
+    border: 1px solid #6d8491;
+    border-radius: 10px;
+}
+
+.container th {
+    padding: 15px;
+    font-weight: 600;
+    width: 10%;
+    color: white;
+    background-color: #37393A;
+}
+
+.container tr {
+    margin-bottom: 50px;
+    border-radius: 10px;
+}
+
+.container td {
+    color: #333;
+    font-weight: 400;
+    text-align: center;
+    padding: 15px;
+}
+
+.container tr:hover {
+    background-color: #f2f2f2;
+    /* cursor: pointer; */
+    border-radius: 20px;
+}
+
+.container i {
+    font-size: large;
+}
+
+.container i:hover {
+    cursor: pointer;
+}
+
+.delIcon:hover {
+    color: #CC0000;
+}
+
+.editIcon:hover {
+    color: #FFCC33;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 20px 20px 20px 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    margin-left: 15px;
+}
+
+.filterBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    align-items: center;
+    margin: 0px;
+}
+
+.methodName  {
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.searchBar {
+    width: 200px;
+    height: 15px;
+    padding: 5px;
+    border: 0.1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    background-color: white;
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.searchBar:focus {
+    outline: none;
+    border: 1px solid #A63446;
+}
+
+.searchButton {
+    background-color: #0288D1;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    margin-right: 10px;
+    margin-left: 10px;
+    border: 1px solid #0288D1;
+}
+
+.searchButton:hover {
+    background-color: white;
+    color: #0288D1;
+    border: 1px solid #0288D1;
+}
+
+.delButton {
+    background-color: #D32F2F;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    margin-right: 10px;
+    border: 1px solid #D32F2F;
+}
+
+.delButton:hover {
+    background-color: white;
+    color: #D32F2F;
+    border: 1px solid #D32F2F;
+}
+
+.clearSearchButton {
+    background-color: #D32F2F;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    margin-right: 10px;
+    border: 1px solid #D32F2F;
+}
+
+.clearSearchButton:hover {
+    background-color: white;
+    color: #D32F2F;
+    border: 1px solid #D32F2F;
+}
+
+.addRecPart {
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+}
+
+.addRecPart button {
+    background-color: #A63446;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    margin-right: 10px;
+    border: 1px solid #A63446;
+}
+
+.addRecPart button:hover {
+    background-color: white;
+    color: #A63446;
+    border: 1px solid #A63446;
+}
+
+.addRecPart input {
+    margin-right: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.addRecPart input:focus {
+    outline: none;
+    border: 1px solid black;
+}
+
+.addRecPart p {
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: #A63446;
+}

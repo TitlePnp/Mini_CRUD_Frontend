@@ -1,0 +1,212 @@
+@import url('https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css');
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: white;
+    padding: 20px;
+    height: 100vh;
+    border-left: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 20rem;
+    height: auto;
+}
+
+.logo {
+    color: #A63446;
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+.productMenu {
+    display: flex;
+    flex-direction: row;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+.productMenu i {
+    display: flex;
+    align-items: center;
+    font-size: large;
+    margin-right: 10px;
+}
+
+.showProduct {
+    display: flex;
+    flex-direction: row;
+    padding-left: 10px;
+    border-radius: 5px;
+    height: 3rem;
+    margin: 0px 0px 5px;
+}
+
+.showProduct p {
+    display: flex;
+    align-items: center;
+}
+
+.showProduct:hover {
+    background-color: #A63446;
+    cursor: pointer;
+    color: white;
+}
+
+.showProduct i {
+    display: flex;
+    align-items: center;
+    font-size: large;
+    margin-right: 10px;
+}
+
+.showProduct.active {
+    background-color: #A63446;
+    color: white;
+}
+
+.addProduct {
+    display: flex;
+    flex-direction: row;
+    padding-left: 10px;
+    border-radius: 5px;
+    height: 3rem;
+    margin: 0px 0px 5px;
+}
+
+.addProduct:hover {
+    background-color: #A63446;
+    cursor: pointer;
+    color: white;
+}
+
+.addProduct i {
+    display: flex;
+    align-items: center;
+    font-size: large;
+    margin-right: 10px;
+}
+
+.addProduct p {
+    display: flex;
+    align-items: center;
+}
+
+.addProduct.active {
+    background-color: #A63446;
+    color: white;
+}
+
+.editProduct {
+    display: flex;
+    flex-direction: row;
+    padding-left: 10px;
+    border-radius: 5px;
+    height: 3rem;
+    margin: 0px 0px 5px;
+}
+
+.editProduct:hover {
+    background-color: #A63446;
+    cursor: pointer;
+    color: white;
+}
+
+.editProduct i {
+    display: flex;
+    align-items: center;
+    font-size: large;
+    margin-right: 10px;
+}
+
+.editProduct p {
+    display: flex;
+    align-items: center;
+}
+
+.editProduct.active {
+    background-color: #A63446;
+    color: white;
+}
+
+.recProductMenu {
+    display: flex;
+    flex-direction: row;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+.recProductMenu i {
+    display: flex;
+    align-items: center;
+    font-size: large;
+    margin-right: 10px;
+}
+
+.recList {
+    display: flex;
+    flex-direction: row;
+    padding-left: 10px;
+    border-radius: 5px;
+    height: 3rem;
+    margin: 0px 0px 5px;
+}
+
+.recList:hover {
+    background-color: #A63446;
+    cursor: pointer;
+    color: white;
+}
+
+.recList i {
+    display: flex;
+    align-items: center;
+    font-size: large;
+    margin-right: 10px;
+}
+
+.recList p {
+    display: flex;
+    align-items: center;
+}
+
+.recList.active {
+    background-color: #A63446;
+    color: white;
+}
+
+.backBtn {
+    display: flex;
+    flex-direction: row;
+    padding-left: 10px;
+    border-radius: 5px;
+    height: 3rem;
+    margin: 0px 0px 5px;
+}
+
+.backBtn:hover {
+    background-color: #A63446;
+    cursor: pointer;
+    color: white
+}
+
+.backBtn i {
+    display: flex;
+    align-items: center;
+    font-size: large;
+    margin-right: 10px;
+}
+
+.backBtn p {
+    display: flex;
+    align-items: center;
+}

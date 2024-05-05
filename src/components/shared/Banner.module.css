@@ -1,0 +1,15 @@
+.container {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.textBanner {
+    margin: 0px;
+    font-weight: 600;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    color: white;
+}

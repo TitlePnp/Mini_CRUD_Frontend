@@ -1,0 +1,50 @@
+.container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container img {
+    height: 50%;
+    transition: all 0.2s;
+}
+
+.container:hover img {
+    filter: brightness(50%);
+    transform: scale(1.1);
+}
+
+.container label {
+    position: absolute;
+    top: 50%;
+    left: 33.33%;
+    opacity: 0;
+    transition: opacity 0.2s;
+    font-weight: bold;
+    color: white;
+}
+
+.container:hover label {
+    opacity: 1;
+}
+
+.detail:hover a h2 , .detail:hover p {
+    color: #991b1b;
+}
+
+.detail a {
+    color: black;
+    text-decoration: none;
+}
+
+.detail h2 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 1rem;
+}
+
+.detail p {
+    margin-top: 5px;
+    font-size: 0.875rem;
+}

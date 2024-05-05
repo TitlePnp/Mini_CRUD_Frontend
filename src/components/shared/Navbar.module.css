@@ -1,0 +1,55 @@
+.container {
+    /* width: 100vw; */
+    /* background-color: red; */
+    /* top right bottom left*/
+    padding: 20px 60px 15px 60px;
+    display:flex;
+    justify-content: space-between;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+}
+
+.logo {
+ display: flex;
+ margin: 0px 35px 0px 0px;
+}
+
+.textLogo {
+    color: #A63446;
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+.btnContainer {
+    display: flex;
+    align-items: center;
+}
+
+.btnContainer p {
+    background-color: #A63446;
+    padding: 10px 15px 10px 15px;
+    color: white;
+    border-radius: 5px;
+}
+
+.btnContainer a {
+    text-decoration: none;
+}
+
+.btnContainer p:hover {
+    background-color: #a8162c;
+    color: white;
+    cursor: pointer;
+}
+
+.allProduct {
+    display: flex;
+    align-items: center;
+    margin: 0px 20px 0px 20px;
+}
