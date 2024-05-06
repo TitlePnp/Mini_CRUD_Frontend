@@ -14,13 +14,13 @@ INSERT INTO products(product_name, product_image, product_description, product_p
 VALUES ("LABUBU Boots Figurine", "src/assets/labubu_boots.jpg", "LABUBU Boots Material: PVC/ABS Size: Height about 21cm", 3190, 40, "Active", 2);
 
 INSERT INTO products(product_name, product_image, product_description, product_price, product_quantity, product_status, type_id) 
-VALUES ("THE MONSTERS FALL IN WILD SERIES-Vinyl Plush Doll Pendant", "src/assets/labubu_monster.jpg", "LABUBU Monster Shell：40%PVC 30%Cotton 30%Polyester Fiber Size: 8cm*7cm*17cm", 850, 40, "Active", 1);
+VALUES ("THE MONSTERS FALL IN WILD SERIES-Vinyl Plush Doll Pendant", "src/assets/labubu_monster.jpg", "LABUBU Monster Shell:40%PVC 30%Cotton 30%Polyester Fiber Size: 8cm*7cm*17cm", 850, 40, "Active", 1);
 
 INSERT INTO products(product_name, product_image, product_description, product_price, product_quantity, product_status, type_id) 
 VALUES ("LABUBU Time to Chill-Vinyl Plush Doll", "src/assets/labubu_chill.jpg", "LABUBU Chill Plush Material: 95% Polyester Fiber,5% Cotton Packing size: About 20x16.4x37.5cm", 850, 40, "Active", 1);
 
 INSERT INTO products(product_name, product_image, product_description, product_price, product_quantity, product_status, type_id) 
-VALUES ("MEGA LABUBU TEC 1000% All About Us", "src/assets/labubu_mega.jpg", "LABUBU Mega SIZE 793mm MATERIAL PVC Launch Quantity： Limited to 10pcs", 26390, 10, "Active", 2);
+VALUES ("MEGA LABUBU TEC 1000% All About Us", "src/assets/labubu_mega.jpg", "LABUBU Mega SIZE 793mm MATERIAL PVC Launch Quantity:Limited to 10pcs", 26390, 10, "Active", 2);
 
 -- SQL TEST --
 {
