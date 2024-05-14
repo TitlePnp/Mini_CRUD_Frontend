@@ -12,8 +12,6 @@ type Product = {
   product_quantity: number,
   product_status: string,
   type_id: number,
-  creation_date: string | null,
-  update_date: string | null,
 }
 
 
@@ -39,9 +37,7 @@ export default function AddProduct() {
       product_price: product_price,
       product_quantity: product_quantity,
       product_status: 'Active',
-      type_id: parseInt(product_category),
-      creation_date: null,
-      update_date: null
+      type_id: parseInt(product_category)
     }
 
 

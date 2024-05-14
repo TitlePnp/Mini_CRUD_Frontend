@@ -36,15 +36,15 @@ export default function UpdateProduct() {
 
   useEffect(() => {
     const fetchProducts = async () => {
-      const fetchResponse = await axios.get<Product[]>(`http://localhost:3000/GetProduct/${id}`);
+      const fetchResponse = await axios.get<Product>(`http://localhost:3000/GetProduct/${id}`);
 
-      setProduct_name(fetchResponse.data[0].product_name);
-      setProduct_category(fetchResponse.data[0].type_id.toString());
-      setProduct_price(fetchResponse.data[0].product_price);
-      setProduct_quantity(fetchResponse.data[0].product_quantity);
-      setProduct_description(fetchResponse.data[0].product_description);
-      setProduct_status(fetchResponse.data[0].product_status);
-      setImgPath(`/${fetchResponse.data[0].product_image}`);
+      setProduct_name(fetchResponse.data.product_name);
+      setProduct_category(fetchResponse.data.type_id.toString());
+      setProduct_price(fetchResponse.data.product_price);
+      setProduct_quantity(fetchResponse.data.product_quantity);
+      setProduct_description(fetchResponse.data.product_description);
+      setProduct_status(fetchResponse.data.product_status);
+      setImgPath(`/${fetchResponse.data.product_image}`);
     }
     fetchProducts();
   }, []);
@@ -118,12 +118,12 @@ export default function UpdateProduct() {
 
             <div className={styles.infoPreviewRow}>
               <p className={styles.infoPreviewTitle}>Product Description</p>
-              <textarea className={styles.infoPreviewInput} value={product_description} onChange={(e) => setProduct_description(e.target.value)} />
+              <textarea className={styles.infoPreviewInput} placeholder='Product Description' value={product_description} onChange={(e) => setProduct_description(e.target.value)} />
             </div>
 
             <div className={styles.infoPreviewRow}>
               <p className={styles.infoPreviewTitle}>Product Status</p>
-              <input type="text" className={styles.infoPreviewInput} value={product_status} onChange={(e) => setProduct_status(e.target.value)} />
+              <input type="text" className={styles.infoPreviewInput} placeholder='Product Status' value={product_status} onChange={(e) => setProduct_status(e.target.value)} />
             </div>
 
             <div className={styles.infoPreviewRow}>

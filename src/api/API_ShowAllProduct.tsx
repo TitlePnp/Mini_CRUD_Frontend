@@ -36,6 +36,7 @@ export default function API_ShowAllProduct() {
             <h3>Product</h3>
             <div className={styles.productLayout}>
                 {products.map(product => (
+                    console.log(product),
                     <div key={product.product_id} className={""}>
                         <a>
                             <ProductCard
